@@ -1,0 +1,11 @@
+apiVersion: blog.arctiq.com/v1alpha1
+kind: WebApp
+metadata:
+  name: example-webapp
+spec:
+  # Add fields here
+  count: 3
+  webgroup: "Demo-WebApp"
+  image: r00tsh3ll/op-websrv
+  port: 8080
+  message: "Hello From WebApp 1"

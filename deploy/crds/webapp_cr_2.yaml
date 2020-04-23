@@ -1,0 +1,11 @@
+apiVersion: blog.arctiq.com/v1alpha1
+kind: WebApp
+metadata:
+  name: another-webapp
+spec:
+  # Add fields here
+  count: 3
+  webgroup: "Demo-WebApp-2"
+  image: r00tsh3ll/op-websrv
+  port: 8080
+  message: "This is another web app"
